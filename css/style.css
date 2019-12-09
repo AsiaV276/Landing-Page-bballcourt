@@ -12,7 +12,7 @@ body {
 }
 
 #showcase {
-    background-image: url('../images/bballcourt.jpg');
+    background-image: url('../images/court-background.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -31,7 +31,7 @@ body {
 #showcase .button {
     text-decoration: none;
     color: white;
-    border: white 1px solid;
+    border: white 2px solid;
     border-radius: 5px;
     padding: 10px 20px;
     margin-top: 20px;
@@ -39,8 +39,14 @@ body {
 
 #showcase .button:hover{
     color: lightgrey;
-    border: lightgrey 1px solid;
+    border: lightgrey 2px solid;
 }
+
+#showcase .button:active{
+    color: lightgrey;
+    border: lightgrey 2px solid;
+}
+
 
 #section-a {
     display: flex;
@@ -60,4 +66,12 @@ body {
     border-top: lightcoral 5px solid;
     border-bottom: lightcoral 5px solid;
     padding: 20px;
+}
+
+#section-b p {
+    padding: 25px;
+}
+
+#section-b .b-color {
+    color: lightcoral;
 }
